@@ -1,6 +1,5 @@
-#Human Activity Recognition Using Smartphones Dataset V1.0
-##Cleaned and Summarized
-Jason Hu
+#Human Activity Recognition Using Smartphones Dataset V1.0 Cleaned and Summarized
+###Jason Hu
 
 Original Data By:
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
