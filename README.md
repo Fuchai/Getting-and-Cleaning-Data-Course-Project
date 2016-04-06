@@ -17,6 +17,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 - Average of all variables for each subject and activity. 
+- The source code in .R format.
 
 ##Steps for Cleaning and Summarizing:
 
@@ -26,6 +27,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 4, Appropriately labels the data set with descriptive variable names.
 5, From the data set in step 4, creates a second, independent tidy data set with the average     of each variable for each activity and each subject.
 
+To replicate the production of two .csv files, put the "UCI HAR Dataset" folder on the same level as the .R file.
 
 ##Updated Files:
 
