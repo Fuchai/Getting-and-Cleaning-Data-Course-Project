@@ -17,15 +17,17 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 - Average of all variables for each subject and activity. 
+- The source code in .R format.
 
 ##Steps for Cleaning and Summarizing:
 
-1, Merges the training and the test sets to create one data set.
-2, Extracts only the measurements on the mean and standard deviation for each measurement.
-3, Uses descriptive activity names to name the activities in the data set
-4, Appropriately labels the data set with descriptive variable names.
-5, From the data set in step 4, creates a second, independent tidy data set with the average     of each variable for each activity and each subject.
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average     of each variable for each activity and each subject.
 
+To replicate the production of two .csv files, put the "UCI HAR Dataset" folder on the same level as the .R file.
 
 ##Updated Files:
 
@@ -34,9 +36,9 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 - 'CleanSummarizeCodeBook.txt' Explanation for each variable
 
-- 'cleaned.txt': (Step 1 to 4) Merged training set and test set, with specified labels and only mean and standard deviation data.
+- 'cleaned.csv': (Step 1 to 4) Merged training set and test set, with specified labels and only mean and standard deviation data.
 
-- 'summarized.txt' (Step 5) Averge of each variable for each activity and each subject.
+- 'summarized.csv' (Step 5) Averge of each variable for each activity and each subject.
 
 
 ###For Coursera Assignment: Getting and Cleaning Data Course Project
