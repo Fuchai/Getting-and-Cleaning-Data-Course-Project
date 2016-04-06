@@ -47,5 +47,5 @@ colnames(meanStd)<-originalnames
 colnames(meanByActSub)<-originalnames
 
 # wrap up
-write.csv(meanStd,"cleaned.csv")
-write.csv(meanByActSub,"summarized.csv")
+write.table(meanStd,"cleaned.txt",row.names = F)
+write.table(meanByActSub,"summarized.txt",row.names = F)
